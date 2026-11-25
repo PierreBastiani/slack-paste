@@ -5,8 +5,8 @@ description: Draft a Slack message from the current conversation in standard mar
 # Slack message to the clipboard
 
 macOS only. Needs `pandoc` (`brew install pandoc`); `--blocks` also needs `markdown-it-py` or `uv`.
-The script is `scripts/md-to-slack.sh` in this skill's directory. `FINDINGS.md` at the repo root
-documents the paste behavior these rules come from.
+The script is `scripts/md-to-slack.sh` in this skill's directory. The paste behavior these rules come
+from is documented in https://github.com/PierreBastiani/slack-paste/blob/main/FINDINGS.md.
 
 ## 1. Audience and intent
 
@@ -100,7 +100,7 @@ Also:
 - Cmd+Shift+V, a paste inside a code block, or Slack's "plain text mode" preference skip conversion.
 - Copying a table back out of the composer puts `[object Object]` in the plain text (Slack bug).
 - Slack enables parts of this per workspace and client. If a paste does not format, check
-  `FINDINGS.md` for the tested setup and re-run the lab (`lab/`) in that workspace.
+  FINDINGS.md (link above) for the tested setup and re-run the repo's `lab/` in that workspace.
 
 ## API sends only
 

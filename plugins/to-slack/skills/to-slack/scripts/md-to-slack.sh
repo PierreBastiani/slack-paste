@@ -7,7 +7,7 @@
 #     Clipboard = the markdown as plain text + a pandoc HTML rendering. Slack converts the
 #     markdown when its "is this markdown?" check passes and falls back to the HTML when it
 #     does not. Pipe tables are left as markdown: Slack turns them into native table blocks.
-#     Requires pandoc. Implemented in slack_clip.py (paste rules: ../SKILL.md and FINDINGS.md at the repo root).
+#     Requires pandoc. Implemented in slack_clip.py (paste rules: ../SKILL.md; findings: https://github.com/PierreBastiani/slack-paste/blob/main/FINDINGS.md).
 #   --blocks   --rich + Slack Block Kit JSON (slack/block-kit) built from the markdown: tables
 #              keep bold, links and code in cells and column alignment. Needs markdown-it-py
 #              (or uv, used automatically).
@@ -55,7 +55,7 @@ if [[ $RICH -eq 1 ]]; then
   HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
   if [[ " ${RICH_ARGS[*]-} " == *" --blocks "* ]] && ! python3 -c 'import markdown_it' 2>/dev/null; then
     command -v uv >/dev/null || { echo "--blocks needs markdown-it-py (pip install markdown-it-py) or uv" >&2; exit 1; }
-    exec uv run -q --with markdown-it-py python3 "$HERE/slack_clip.py" ${RICH_ARGS[@]+"${RICH_ARGS[@]}"}
+    exec uv run -q --with markdown-it-py==4.3.0 python3 "$HERE/slack_clip.py" ${RICH_ARGS[@]+"${RICH_ARGS[@]}"}
   fi
   exec python3 "$HERE/slack_clip.py" ${RICH_ARGS[@]+"${RICH_ARGS[@]}"}
 fi

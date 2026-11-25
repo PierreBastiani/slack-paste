@@ -5,7 +5,7 @@
   "plugins": [
     {
       "name": "to-slack",
-      "source": "./",
+      "source": "./plugins/to-slack",
       "description": "Draft a Slack message in markdown and copy it so Slack formats it on paste (macOS)"
     }
   ]

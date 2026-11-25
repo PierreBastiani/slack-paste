@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Put a markdown message on the macOS clipboard so Slack's composer formats it on paste.
 
-Clipboard payloads (FINDINGS.md at the repo root explains each one):
+Clipboard payloads (https://github.com/PierreBastiani/slack-paste/blob/main/FINDINGS.md explains each one):
   text/plain  the markdown itself. Slack converts it when its "is this markdown?" check passes.
   text/html   pandoc rendering of the same markdown. Slack uses it only when the check fails
               (e.g. a message whose only markup is _italic_ at the very start), so formatting
@@ -71,7 +71,7 @@ def _md():
         from markdown_it import MarkdownIt
     except ImportError:
         sys.exit("--blocks needs markdown-it-py: pip install markdown-it-py "
-                 "(or run through: uv run --with markdown-it-py)")
+                 "(or run through: uv run --with markdown-it-py==4.3.0)")
     return MarkdownIt("commonmark").enable(["table", "strikethrough"])
 
 

@@ -67,12 +67,12 @@ Claude Code plugin:
 /plugin install to-slack@slack-paste
 ```
 
-Or copy `skills/to-slack/` into `~/.claude/skills/`.
+Or copy `plugins/to-slack/skills/to-slack/` into `~/.claude/skills/`.
 
 The script also works without an agent:
 
 ```bash
-skills/to-slack/scripts/md-to-slack.sh --rich < message.md
+plugins/to-slack/skills/to-slack/scripts/md-to-slack.sh --rich < message.md
 ```
 
 ## Pair it with a writing skill

@@ -1,7 +1,7 @@
 {
   "name": "to-slack",
   "description": "Draft a Slack message in markdown and copy it so Slack formats it on paste (macOS)",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": { "name": "Pierre Bastiani", "url": "https://pierre.kensae.com" },
   "homepage": "https://github.com/PierreBastiani/slack-paste",
   "repository": "https://github.com/PierreBastiani/slack-paste",
