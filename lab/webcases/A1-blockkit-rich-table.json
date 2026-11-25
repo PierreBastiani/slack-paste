@@ -1,0 +1,6 @@
+{
+ "plain": "fallback A1",
+ "web": {
+  "slack/block-kit": "[{\"type\": \"table\", \"column_settings\": [{\"align\": \"left\"}, {\"align\": \"right\"}], \"rows\": [[{\"type\": \"rich_text\", \"elements\": [{\"type\": \"rich_text_section\", \"elements\": [{\"type\": \"text\", \"text\": \"Check\", \"style\": {\"bold\": true}}]}]}, {\"type\": \"rich_text\", \"elements\": [{\"type\": \"rich_text_section\", \"elements\": [{\"type\": \"text\", \"text\": \"Valeur\", \"style\": {\"bold\": true}}]}]}], [{\"type\": \"rich_text\", \"elements\": [{\"type\": \"rich_text_section\", \"elements\": [{\"type\": \"link\", \"url\": \"https://pierre.kensae.com\", \"text\": \"site\"}]}]}, {\"type\": \"rich_text\", \"elements\": [{\"type\": \"rich_text_section\", \"elements\": [{\"type\": \"text\", \"text\": \"12,5\", \"style\": {\"code\": true}}]}]}], [{\"type\": \"raw_text\", \"text\": \"brut\"}, {\"type\": \"rich_text\", \"elements\": [{\"type\": \"rich_text_section\", \"elements\": [{\"type\": \"emoji\", \"name\": \"white_check_mark\"}, {\"type\": \"text\", \"text\": \" OK\"}]}]}]]}]"
+ }
+}

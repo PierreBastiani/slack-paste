@@ -1,0 +1,1 @@
+{"plain": "texte neutre", "html": "<p><span style=\"color:red;font-weight:bold\">rouge gras via style</span> <font color=\"blue\">font bleu</font> <span style=\"font-style:italic;text-decoration:underline\">ital+souligné via style</span> <span style=\"background:yellow\">surligné</span></p>"}

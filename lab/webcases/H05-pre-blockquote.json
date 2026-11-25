@@ -1,0 +1,1 @@
+{"plain": "texte neutre", "html": "<pre><code class=\"language-python\">def f():\n    return 1</code></pre><blockquote><p>cité <b>gras</b></p><blockquote><p>imbriqué</p></blockquote></blockquote>"}

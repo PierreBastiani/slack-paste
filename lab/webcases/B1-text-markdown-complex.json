@@ -1,0 +1,6 @@
+{
+ "plain": "fallback B1",
+ "web": {
+  "text/markdown": "## Titre\n\n_italique_ au début et __gras__\n\n| a | b |\n|---|---|\n| **x** | y |"
+ }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "slack-paste",
+  "description": "Paste markdown into Slack's composer and get real formatting",
+  "owner": { "name": "Pierre Bastiani", "url": "https://pierre.kensae.com" },
+  "plugins": [
+    {
+      "name": "to-slack",
+      "source": "./",
+      "description": "Draft a Slack message in markdown and copy it so Slack formats it on paste (macOS)"
+    }
+  ]
+}

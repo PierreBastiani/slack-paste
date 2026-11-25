@@ -1,0 +1,1 @@
+{"plain": "texte neutre", "html": "<ol start=\"5\"><li>cinq</li><li>six<ul><li>imbriqué<ol><li>profond</li></ol></li></ul></li></ol><ul><li><input type=\"checkbox\" checked> tâche</li></ul>"}

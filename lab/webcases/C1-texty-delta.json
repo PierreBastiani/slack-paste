@@ -1,0 +1,6 @@
+{
+ "plain": "fallback C1",
+ "web": {
+  "slack/texty": "{\"ops\": [{\"insert\": \"soulign\\u00e9?\", \"attributes\": {\"underline\": true}}, {\"insert\": \" \"}, {\"insert\": \"rouge?\", \"attributes\": {\"color\": \"#ff0000\"}}, {\"insert\": \"\\n\"}, {\"insert\": \"un\"}, {\"insert\": \"\\n\", \"attributes\": {\"list\": \"ordered\", \"indent\": 2}}]}"
+ }
+}

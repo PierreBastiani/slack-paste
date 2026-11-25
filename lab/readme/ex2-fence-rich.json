@@ -1,0 +1,4 @@
+{
+ "plain": "Run this before merging:\n\n```\nnpm run lint && npm test\n```\n",
+ "html": "<p>Run this before merging:</p>\n<pre><code>npm run lint &amp;&amp; npm test</code></pre>\n"
+}

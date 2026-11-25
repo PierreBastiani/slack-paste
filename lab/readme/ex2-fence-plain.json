@@ -1,0 +1,1 @@
+{"plain": "Run this before merging:\n\n```\nnpm run lint && npm test\n```\n"}

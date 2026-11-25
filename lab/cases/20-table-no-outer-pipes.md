@@ -1,0 +1,3 @@
+Check | État
+---|---
+Build | OK
