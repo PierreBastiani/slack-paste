@@ -38,8 +38,9 @@ draft as one markdown code block to copy by hand; Slack still converts most of i
 
 ## Install
 
-In Claude Code: `/plugin install to-slack --marketplace PierreBastiani/slack-paste`. In any Agent
-Skills client: `npx skills add PierreBastiani/slack-paste`.
+In Claude Code: `/plugin install to-slack --marketplace PierreBastiani/slack-paste`. In Codex:
+`codex plugin marketplace add PierreBastiani/slack-paste`. In any Agent Skills client:
+`npx skills add PierreBastiani/slack-paste`.
 
 ## More
 

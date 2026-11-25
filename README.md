@@ -67,6 +67,12 @@ Claude Code plugin:
 /plugin install to-slack@slack-paste
 ```
 
+Codex plugin (then install `to-slack` from the plugin list):
+
+```bash
+codex plugin marketplace add PierreBastiani/slack-paste
+```
+
 Or copy `plugins/to-slack/skills/to-slack/` into `~/.claude/skills/`.
 
 The script also works without an agent:

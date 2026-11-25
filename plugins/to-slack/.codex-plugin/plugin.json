@@ -1,0 +1,16 @@
+{
+  "name": "to-slack",
+  "version": "0.2.0",
+  "description": "Draft a Slack message in markdown and copy it so Slack formats it on paste (macOS)",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "to-slack",
+    "shortDescription": "Markdown that pastes into Slack with real headings, lists and tables",
+    "longDescription": "Drafts a Slack message from the conversation, shows it for approval, then puts it on the macOS clipboard as markdown, HTML and optionally Slack Block Kit, so Cmd+V in Slack gives real formatting, native tables included.",
+    "developerName": "Pierre Bastiani",
+    "category": "Productivity",
+    "websiteURL": "https://github.com/PierreBastiani/slack-paste",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/icon.png"
+  }
+}
